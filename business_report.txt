@@ -1,0 +1,13 @@
+SL BIZ TRACKER - BUSINESS REPORT
+==================================================
+Generated: 2026-06-21 12:37
+
+2026-06-21 12:36 | Sale     | Goods      | carss                | SLE 2000.00
+2026-06-21 12:36 | Sale     | Goods      | bicycle              | SLE 100.00
+2026-06-21 12:36 | Sale     | Goods      | yacht                | SLE 50000.00
+
+--------------------------------------------------
+Total Sales:    SLE 52100.00
+Total Expenses: SLE 0.00
+Net Profit:     SLE 52100.00
+Status:         Profitable

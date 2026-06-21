@@ -1,0 +1,71 @@
+# SL Biz Tracker
+
+A simple GUI-based sales and expense tracker for small business owners in
+Sierra Leone, built for the PROG103 (Principles of Structured Programming)
+final project at Limkokwing University of Creative Technology, Sierra Leone.
+
+## Problem
+
+Many small business owners in Sierra Leone keep no organized record of
+daily sales and expenses. Without this, it is difficult to know whether
+the business is actually profitable, which slows financial planning and
+access to credit.
+
+## Solution
+
+SL Biz Tracker is a desktop application (built with Python and tkinter)
+that lets an owner log every sale and expense, view all records in one
+place, and instantly calculate total sales, total expenses, and net
+profit or loss.
+
+## SDG Alignment
+
+**SDG 8 — Decent Work and Economic Growth.** The tool supports small
+business formalization and better financial record-keeping, helping
+owners track performance and make informed decisions.
+
+## Features
+
+- Add, view, and delete sales/expense transactions
+- Categorized entries (Goods, Services, Transport, Rent, Utilities, Supplies, Other)
+- Automatic profit/loss calculation with a clear status message
+- Export a text-file business report
+- Input validation on all fields
+- Clean, simple tkinter interface
+
+## Structured Programming Concepts Used
+
+- Constants and variables
+- Multiple data types (strings, floats, lists, dictionaries)
+- Decision structures (`if` / `elif` / `else`)
+- Iteration (`for` loops over transaction records)
+- User-defined functions/methods, with GUI code and business logic kept
+  in separate classes (`BizTrackerApp` and `TransactionManager`)
+
+## Requirements
+
+- Python 3
+- tkinter (included with most standard Python installations)
+
+## Running the Application
+
+```bash
+python3 business_tracker.py
+```
+
+## Usage
+
+1. Select **Sale** or **Expense** and a category.
+2. Enter a description and amount, then click **Add Transaction**.
+3. Click **Calculate Summary** to see totals and business status.
+4. Click **Export Report** to save a text-file summary.
+5. Use **Delete Selected** to remove a record, **Clear** to reset the
+   input fields, and **Exit** to close the app.
+
+## License
+
+This project is released under the MIT License — see [LICENSE](LICENSE).
+
+## Author
+
+Mitchell Prince George — PROG103, Limkokwing University of Creative Technology, Sierra Leone
